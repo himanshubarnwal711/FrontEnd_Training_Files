@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Javascript If / Else</title>
+    </head>
+
+    <body>
+        <h1>If / Else</h1>
+        <div id="box1"></div>
+        <script type="text/javascript">
+            var age=34;
+
+            if(age<30){
+                document.getElementById("box1").innerHTML="You are just a youngling.";
+                document.getElementById("box1").style.color="maroon";
+            }
+
+            else if(age>30){
+                document.getElementById("box1").innerHTML="You are older than 30.";
+                document.getElementById("box1").style.color="green";
+            
+            }
+
+            else {
+                document.getElementById("box1").innerHTML="Sorry! Input in age is not a number.";
+                document.getElementById("box1").style.color="black";
+            
+            }
+        </script>
+    </body>
+</html>
