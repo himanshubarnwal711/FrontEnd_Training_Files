@@ -1,0 +1,104 @@
+body {
+    background-color: gray;
+    color: #333
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+}
+
+/* Styles for the ID & Class Selectors */
+
+body#idClassPage {
+    background-color: yellow;
+    font-size: 18px;
+}
+
+#main-Title {
+    color: #fc3;
+    background: #353535;
+    padding: 10px;
+    margin: 20px;
+    font-size: 18px;
+}
+
+h3 {
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+ol {
+    margin: 20px;
+    padding: 20px;
+    color: yellow;
+}
+
+.sectionHeader {
+    color: olive;
+    border: solid 1px pink;
+    padding: 40px 20px 10px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* This is a comment */
+
+/* Styles for the descedant Selector lectures.*/
+
+.primary-box {
+    background-color: white;
+    border: solid 10 px #333;
+    padding: 20px;
+}
+
+.primary-box h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.secondary-box {
+    background-color: #333;
+    color:#ffffff;
+    padding: 10px;
+}
+
+.secondary-box p {
+    font-size: 14px;
+    font-style: normal;
+}
+
+.secondary-box p em {
+    color:#fc3fc3;
+}
+
+/* Styles for the Grouping Selectors */
+
+#mainContainer {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.primary-box, .secondary-box {
+    margin: 30px 20px;
+}
+
+.inside-box {
+    border: solid 1px black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    border-bottom: solid 3px red;
+    padding: 0 0 10px;
+}
